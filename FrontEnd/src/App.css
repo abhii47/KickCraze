@@ -8,3 +8,18 @@ h1{
   font-family: "Amarante", serif;
   font-weight: 900;
 }
+
+.header-policy{
+  scrollbar-width: none;
+}
+
+.header-policy a:hover{
+  color:black;
+  text-underline-position: below;
+}
+
+@media screen and (max-width: 768px) {
+  .main-product-container{
+    flex-direction: column;
+  }
+}
