@@ -4,6 +4,16 @@
 *{
   box-sizing: border-box;
 }
+
+.Navbar-container{
+  background-color: transparent;
+}
+
+.Navbar{
+   /* border-bottom-left-radius: 250px 100px; */
+   box-shadow: -1px 1px 5px #415a77;
+}
+
 h1{
   font-family: "Amarante", serif;
   font-weight: 900;
@@ -14,8 +24,8 @@ h1{
 }
 
 .header-policy a:hover{
-  color:black;
-  text-underline-position: below;
+  color:#415a77;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
