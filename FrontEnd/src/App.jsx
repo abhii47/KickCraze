@@ -9,18 +9,24 @@ import ProductDetail from './components/Product_Details';
 function App() {
   return (
     <Router>
-      <div className="container bg-zinc-100">
-        <div className="w-[100%] fixed top-0 z-10">
+      <div className="bg-zinc-100 min-h-screen">
+        {/* Navbar - fixed at top */}
+        <div className="w-full fixed top-0 z-10">
           <Navbar />
         </div>
 
-        <div className="pt-40">
+        {/* Main Content */}
+        <div className="pt-36 px-4 sm:px-6 md:px-10">
           <Routes>
             {/* Homepage with all products */}
             <Route
               path="/"
               element={
-                <div className="main-product-container flex flex-wrap gap-4 justify-center pt-10">
+                <div className="flex flex-wrap gap-4 justify-center items-stretch">
+                  <Product />
+                  <Product />
+                  <Product />
+                  <Product />
                   <Product />
                   <Product />
                   <Product />
