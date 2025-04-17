@@ -21,7 +21,7 @@ const ProductDetail = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white text-black px-6 lg:px-20 py-10 flex flex-col lg:flex-row gap-10">
+    <div className="min-h-screen bg-white text-black px-6 lg:px-40 py-10 flex flex-col lg:flex-row gap-10 mt-[-50px]">
       {/* Left Section */}
       <div className="flex flex-col lg:w-3/5 gap-6">
         <h2 className="text-xl font-light text-gray-500">2024</h2>

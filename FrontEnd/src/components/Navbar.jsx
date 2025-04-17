@@ -6,9 +6,9 @@ function Navbar() {
   return (
     <div className="Navbar-container bg-zinc-100 text-black w-full">
       {/* Top Marquee */}
-      <div className="Headline text-center text-white bg-[#415a77] text-sm py-1">
+      {/* <div className="Headline text-center text-white bg-[#415a77] text-sm py-1">
         <marquee>Free Shipping On All Prepaid Orders</marquee>
-      </div>
+      </div> */}
 
       {/* Main Navbar */}
       <div className="Navbar bg-zinc-200 flex flex-col sm:flex-row items-center justify-between sm:h-20 drop-shadow-md px-4 py-2 sm:py-0">

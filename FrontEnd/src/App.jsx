@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Product from './components/Product';
 import Chatbot from './components/Chatbot';
 import ProductDetail from './components/Product_Details';
+import ProductListPage from './components/ProductListPage';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
                   <Product />
                   <Product />
                   <Chatbot />
+                  {/* <ProductListPage /> */}
                 </div>
               }
             />
