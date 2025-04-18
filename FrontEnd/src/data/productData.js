@@ -1,17 +1,17 @@
 const products = [
   {
     "id": "1",
-    "title": "Shoe Model 1",
-    "subtitle": "Comfortable and stylish sneaker #1",
-    "color": "Color Variant 1",
-    "price": 2100,
+    "title": "Nike Air Max 1",
+    "subtitle": "Nike Air Max 1 White/Orange",
+    "color": "White/Cream/Limestone/University Red",
+    "price": 140,
     "code": "CODE-1001",
     "sizes": [
       39,
       40,
       41
     ],
-    "image": "https://example.com/images/shoe1.webp",
+    "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "videoThumb": "https://example.com/videos/thumb1.webp",
     "related": [
       "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -22,17 +22,17 @@ const products = [
   },
   {
     "id": "2",
-    "title": "Shoe Model 2",
-    "subtitle": "Comfortable and stylish sneaker #2",
+    "title": "Nike Bone Beige",
+    "subtitle": "Nike Dunk Low Bone Beige",
     "color": "Color Variant 2",
-    "price": 2200,
+    "price": 119,
     "code": "CODE-1002",
     "sizes": [
       40,
       41,
       42
     ],
-    "image": "https://example.com/images/shoe2.webp",
+    "image": "https://i.pinimg.com/736x/a2/ed/43/a2ed4379f33e72536f93a04d2df49ad5.jpg",
     "videoThumb": "https://example.com/videos/thumb2.webp",
     "related": [
       "https://example.com/images/related2_1.webp",
@@ -43,17 +43,17 @@ const products = [
   },
   {
     "id": "3",
-    "title": "Shoe Model 3",
-    "subtitle": "Comfortable and stylish sneaker #3",
+    "title": "Nike Reverse Mocha",
+    "subtitle": "Nike Travis Scott Reverse Mocha",
     "color": "Color Variant 3",
-    "price": 2300,
+    "price": 225,
     "code": "CODE-1003",
     "sizes": [
       41,
       42,
       40
     ],
-    "image": "https://example.com/images/shoe3.webp",
+    "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F06%2Ftravis-scott-air-jordan-1-low-reverse-mocha-detailed-look-release-info-dm7866-162-000.jpg?w=960&cbr=1&q=90&fit=max",
     "videoThumb": "https://example.com/videos/thumb3.webp",
     "related": [
       "https://example.com/images/related3_1.webp",
@@ -64,17 +64,17 @@ const products = [
   },
   {
     "id": "4",
-    "title": "Shoe Model 4",
-    "subtitle": "Comfortable and stylish sneaker #4",
+    "title": "Nike St. John Red",
+    "subtitle": "Nike Dunk Low SP St. John Red",
     "color": "Color Variant 4",
-    "price": 2400,
+    "price": 119,
     "code": "CODE-1004",
     "sizes": [
       42,
       39,
       41
     ],
-    "image": "https://example.com/images/shoe4.webp",
+    "image": "https://i.pinimg.com/736x/c8/ea/35/c8ea3584bc61d138e6c02832d35bc03a.jpg",
     "videoThumb": "https://example.com/videos/thumb4.webp",
     "related": [
       "https://example.com/images/related4_1.webp",
@@ -85,17 +85,17 @@ const products = [
   },
   {
     "id": "5",
-    "title": "Shoe Model 5",
-    "subtitle": "Comfortable and stylish sneaker #5",
+    "title": "Nike Air Force 1",
+    "subtitle": "Nike Air Force 1 White Low",
     "color": "Color Variant 5",
-    "price": 2500,
+    "price": 73,
     "code": "CODE-1005",
     "sizes": [
       38,
       40,
       42
     ],
-    "image": "https://example.com/images/shoe5.webp",
+    "image": "https://i.pinimg.com/736x/06/f2/b6/06f2b608c576b96ffd5cb4767649e31a.jpg",
     "videoThumb": "https://example.com/videos/thumb5.webp",
     "related": [
       "https://example.com/images/related5_1.webp",
@@ -104,69 +104,69 @@ const products = [
     "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
     "note": "This is a limited edition of model 5."
   },
-  // {
-  //   "id": "6",
-  //   "title": "Shoe Model 6",
-  //   "subtitle": "Comfortable and stylish sneaker #6",
-  //   "color": "Color Variant 6",
-  //   "price": 2600,
-  //   "code": "CODE-1006",
-  //   "sizes": [
-  //     39,
-  //     41,
-  //     40
-  //   ],
-  //   "image": "https://example.com/images/shoe6.webp",
-  //   "videoThumb": "https://example.com/videos/thumb6.webp",
-  //   "related": [
-  //     "https://example.com/images/related6_1.webp",
-  //     "https://example.com/images/related6_2.webp"
-  //   ],
-  //   "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
-  //   "note": "This is a limited edition of model 6."
-  // },
-  // {
-  //   "id": "7",
-  //   "title": "Shoe Model 7",
-  //   "subtitle": "Comfortable and stylish sneaker #7",
-  //   "color": "Color Variant 7",
-  //   "price": 2700,
-  //   "code": "CODE-1007",
-  //   "sizes": [
-  //     40,
-  //     42,
-  //     41
-  //   ],
-  //   "image": "https://example.com/images/shoe7.webp",
-  //   "videoThumb": "https://example.com/videos/thumb7.webp",
-  //   "related": [
-  //     "https://example.com/images/related7_1.webp",
-  //     "https://example.com/images/related7_2.webp"
-  //   ],
-  //   "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
-  //   "note": "This is a limited edition of model 7."
-  // },
-  // {
-  //   "id": "8",
-  //   "title": "Shoe Model 8",
-  //   "subtitle": "Comfortable and stylish sneaker #8",
-  //   "color": "Color Variant 8",
-  //   "price": 2800,
-  //   "code": "CODE-1008",
-  //   "sizes": [
-  //     41,
-  //     39,
-  //     42
-  //   ],
-  //   "image": "https://example.com/images/shoe8.webp",
-  //   "videoThumb": "https://example.com/videos/thumb8.webp",
-  //   "related": [
-  //     "https://example.com/images/related8_1.webp",
-  //     "https://example.com/images/related8_2.webp"
-  //   ],
-  //   "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
-  //   "note": "This is a limited edition of model 8."
-  // },
+  {
+    "id": "6",
+    "title": "Nike Air Jordan 1",
+    "subtitle": "Nike Jordan Low SE Craft Black/Grey",
+    "color": "Color Variant 6",
+    "price": 123,
+    "code": "CODE-1006",
+    "sizes": [
+      39,
+      41,
+      40
+    ],
+    "image": "https://images.unsplash.com/photo-1679284392816-191b1c849f76?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "videoThumb": "https://example.com/videos/thumb6.webp",
+    "related": [
+      "https://example.com/images/related6_1.webp",
+      "https://example.com/images/related6_2.webp"
+    ],
+    "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
+    "note": "This is a limited edition of model 6."
+  },
+  {
+    "id": "7",
+    "title": "Addidas Samba OG",
+    "subtitle": "Addidas White Samba OG",
+    "color": "Color Variant 7",
+    "price": 128,
+    "code": "CODE-1007",
+    "sizes": [
+      40,
+      42,
+      41
+    ],
+    "image": "https://i.pinimg.com/736x/7a/55/83/7a5583517446c5aabc68f92973e37d05.jpg",
+    "videoThumb": "https://example.com/videos/thumb7.webp",
+    "related": [
+      "https://example.com/images/related7_1.webp",
+      "https://example.com/images/related7_2.webp"
+    ],
+    "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
+    "note": "This is a limited edition of model 7."
+  },
+  {
+    "id": "8",
+    "title": "Nike Retro Panda",
+    "subtitle": "Nike Dunk Low Retro Panda Black",
+    "color": "Color Variant 8",
+    "price": 66,
+    "code": "CODE-1008",
+    "sizes": [
+      41,
+      39,
+      42
+    ],
+    "image": "https://i.pinimg.com/736x/45/cd/59/45cd59bc7f0df5c8d896c3eefd18f72f.jpg",
+    "videoThumb": "https://example.com/videos/thumb8.webp",
+    "related": [
+      "https://example.com/images/related8_1.webp",
+      "https://example.com/images/related8_2.webp"
+    ],
+    "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
+    "note": "This is a limited edition of model 8."
+  },
   // {
   //   "id": "9",
   //   "title": "Shoe Model 9",
