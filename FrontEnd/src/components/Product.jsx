@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import products from "../data/productData";
 
 const Product = () => {
   const navigate = useNavigate();
@@ -9,20 +10,21 @@ const Product = () => {
   };
 
   return (
-    <div className="Product-container bg-zinc-100 cursor-pointer">
-      <div className="Product bg-white w-72 text-black my-5 p-5 shadow-md rounded-xl">
+    <div className="Product-container flex flex-wrap gap-4 justify-center items-stretch  bg-zinc-100 cursor-pointer">
+      {products.map((p)=>(
+        <div key={p.id} className="Product bg-white w-72 text-black my-5 p-5 shadow-md rounded-xl">
         <figure className="px-4 pt-4">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            src={p.image}
             alt="Product"
-            className="rounded-xl"
+            className="rounded-xl w-[200px] h-[150px]"
           />
         </figure>
         <div className="Product-body text-center mt-4">
-          <h2 className="Product-title text-xl font-bold">Card Title</h2>
-          <p className="text-lg font-semibold text-green-600">$49.99</p>
+          <h2 className="Product-title text-xl font-bold">{p.title}</h2>
+          <p className="text-lg font-semibold text-green-600">${p.price}</p>
           <p className="text-sm text-gray-600 mt-2">
-            A card component with image, body, and actions.
+            {p.subtitle}
           </p>
           <div className="Product-actions pt-4">
             <button
@@ -34,6 +36,7 @@ const Product = () => {
           </div>
         </div>
       </div>
+      ))}
     </div>
   );
 };
