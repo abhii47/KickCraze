@@ -25,16 +25,6 @@ function App() {
               element={
                 <div className="flex flex-wrap gap-4 justify-center items-stretch">
                   <Product />
-                  <Product />
-                  <Product />
-                  <Product />
-                  <Product />
-                  <Product />
-                  <Product />
-                  <Product />
-                  <Product />
-                  <Product />
-                  <Chatbot />
                   {/* <ProductListPage /> */}
                 </div>
               }
