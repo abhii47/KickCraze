@@ -1,19 +1,14 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import products from "../data/productData";
 
 const Product = () => {
-  const navigate = useNavigate();
-
-  const handleRedirect = () => {
-    navigate('/product_Details');
-  };
 
   return (
     <div className="Product-container flex flex-wrap gap-4 justify-center items-stretch  bg-zinc-100 cursor-pointer">
       {products.map((p)=>(
         <div key={p.id} className="Product bg-white w-72 text-black my-5 p-5 shadow-md rounded-xl">
-        <figure className="px-4 pt-4">
+        <figure className="px-4 pt-4 flex justify-center">
           <img
             src={p.image}
             alt="Product"
@@ -27,12 +22,13 @@ const Product = () => {
             {p.subtitle}
           </p>
           <div className="Product-actions pt-4">
+          <Link to={`/${p.id}`}>
             <button
-              onClick={handleRedirect}
-              className="btn bg-[#415a77] text-white px-6 py-2 rounded hover:bg-[#2d3f56] transition"
+              className="btn bg-[#415a77] text-white px-20 py-2 rounded hover:bg-[#2d3f56] transition"
             >
-              Buy Now
+              Checkout
             </button>
+          </Link>
           </div>
         </div>
       </div>
