@@ -2,10 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
-import Product from './components/Product';
+import Product from './Pages/Product';
 import Chatbot from './components/Chatbot';
-import ProductDetail from './components/Product_Details';
-import ProductListPage from './components/ProductListPage';
+// import ProductDetail from './Pages/Product_Details';
 
 function App() {
   return (
@@ -25,13 +24,13 @@ function App() {
               element={
                 <div className="flex flex-wrap gap-4 justify-center items-stretch">
                   <Product />
-                  {/* <ProductListPage /> */}
+                  <Chatbot />
                 </div>
               }
             />
 
             {/* Product Details Page */}
-            <Route path="/product_Details" element={<ProductDetail />} />
+            <Route path="/:id" element={<ProductDetail />} />
           </Routes>
         </div>
       </div>

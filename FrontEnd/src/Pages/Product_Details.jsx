@@ -1,38 +1,41 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
+import products from '../data/productData';
 
 const ProductDetail = () => {
-  const product = {
-    id: 1,
-    title: 'Platform',
-    subtitle: 'Leather Effect Puffer Jacket',
-    color: 'Black leather',
-    price: 3200,
-    code: '8281/420',
-    sizes: [34, 36, 37],
-    image:
-      'https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp',
-    videoThumb:
-      'https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp',
-    related: [
-      'https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1600269452121-4f2416e55c28?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1605348532760-6753d2c43329?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    ],
-  };
+  const {id} = useParams();
+  const product = products.find((product) => product.id === id);
+
+  // if(!product) return<p>Shoes Not Found</p>
+
+  console.log(id);
 
   return (
     <div className="min-h-screen bg-white text-black px-6 lg:px-40 py-10 flex flex-col lg:flex-row gap-10 mt-[-50px]">
       {/* Left Section */}
       <div className="flex flex-col lg:w-3/5 gap-6">
-        <h2 className="text-xl font-light text-gray-500">2024</h2>
-        <h1 className="text-3xl font-bold mb-2">New collection</h1>
+        {/* <h2 className="text-xl font-light text-gray-500">2024</h2>
+        <h1 className="text-3xl font-bold mb-2">New collection</h1> */}
+
+        {/* Title + Description */}
+        <div>
+
+          {/* <h3 className="uppercase text-sm tracking-wide text-gray-500">
+            {product.subtitle}
+          </h3> */}
+
+          <h1 className="text-5xl font-extrabold">{product.title}</h1>
+          <p className="text-gray-400 mt-2">
+            {product.subtitle.toUpperCase()}
+          </p>
+        </div>
 
         {/* Main Product Image */}
-        <div className="flex justify-center">
+        <div className="flex justify-start">
           <img
             src={product.image}
             alt={product.title}
-            className="max-h-[500px] w-auto object-contain"
+            className="max-h-[380px] rounded-lg w-auto object-contain"
           />
         </div>
 
@@ -43,7 +46,7 @@ const ProductDetail = () => {
               key={idx}
               src={product.image}
               alt="alt"
-              className="w-16 h-16 object-cover rounded-md border"
+              className="w-20 h-16 object-cover rounded-md border"
             />
           ))}
         </div>
@@ -72,26 +75,6 @@ const ProductDetail = () => {
           </div>
         </div>
 
-        {/* What Others Say */}
-        <button className="mt-4 w-full max-w-sm bg-gray-200 p-3 rounded-md flex items-center justify-between">
-          <span>What others say?</span>
-          <img
-            src="https://img.icons8.com/ios-filled/50/instagram-new.png"
-            alt="Instagram"
-            className="w-5 h-5"
-          />
-        </button>
-
-        {/* Title + Description */}
-        {/* <div>
-          <h3 className="uppercase text-sm tracking-wide text-gray-500">
-            {product.subtitle}
-          </h3>
-          <h1 className="text-5xl font-extrabold">{product.title}</h1>
-          <p className="text-gray-400 mt-2">
-            / {product.color.toUpperCase()} | {product.code}
-          </p>
-        </div> */}
       </div>
 
       {/* Right Sidebar */}
@@ -118,6 +101,16 @@ const ProductDetail = () => {
           <span className="hover:underline cursor-pointer">CLASSICS</span>
         </div>
 
+        {/* What Others Say */}
+        <button className="mt-4 w-full max-w-sm bg-gray-200 p-3 rounded-md flex items-center justify-between">
+          <span>What others say?</span>
+          <img
+            src="https://img.icons8.com/ios-filled/50/instagram-new.png"
+            alt="Instagram"
+            className="w-5 h-5"
+          />
+        </button>
+
         {/* You May Also Like */}
         <div>
           <h3 className="text-sm font-semibold mb-2">YOU MAY ALSO LIKE</h3>
@@ -127,7 +120,7 @@ const ProductDetail = () => {
                 key={i}
                 src={img}
                 alt="related"
-                className="w-24 h-32 object-cover rounded-md"
+                className="w-32 h-24 object-cover rounded-md"
               />
             ))}
           </div>
