@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Product from './Pages/Product';
 import Chatbot from './components/Chatbot';
-// import ProductDetail from './Pages/Product_Details';
+import ProductDetail from './Pages/Product_Details';
 
 function App() {
   return (
