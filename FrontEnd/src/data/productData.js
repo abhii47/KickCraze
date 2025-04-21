@@ -5,17 +5,17 @@ const products = [
     "subtitle": "Nike Air Max 1 White/Orange",
     "color": "White/Cream/Limestone/University Red",
     "price": 140,
-    "code": "CODE-1001",
+    "code": true,
     "sizes": [
       39,
       40,
       41
     ],
     "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "videoThumb": "https://example.com/videos/thumb1.webp",
+    "videoThumb": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "related": [
-      "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "https://i.pinimg.com/736x/06/f2/b6/06f2b608c576b96ffd5cb4767649e31a.jpg",
+      "https://images.unsplash.com/photo-1679284392816-191b1c849f76?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
     "note": "This is a limited edition of model 1."
@@ -26,17 +26,17 @@ const products = [
     "subtitle": "Nike Dunk Low Bone Beige",
     "color": "Color Variant 2",
     "price": 119,
-    "code": "CODE-1002",
+    "code": true,
     "sizes": [
       40,
       41,
       42
     ],
     "image": "https://i.pinimg.com/736x/a2/ed/43/a2ed4379f33e72536f93a04d2df49ad5.jpg",
-    "videoThumb": "https://example.com/videos/thumb2.webp",
+    "videoThumb": "https://i.pinimg.com/736x/a2/ed/43/a2ed4379f33e72536f93a04d2df49ad5.jpg",
     "related": [
-      "https://example.com/images/related2_1.webp",
-      "https://example.com/images/related2_2.webp"
+      "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F06%2Ftravis-scott-air-jordan-1-low-reverse-mocha-detailed-look-release-info-dm7866-162-000.jpg?w=960&cbr=1&q=90&fit=max",
+      "https://images.unsplash.com/photo-1679284392816-191b1c849f76?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
     "note": "This is a limited edition of model 2."
@@ -47,17 +47,17 @@ const products = [
     "subtitle": "Nike Travis Scott Reverse Mocha",
     "color": "Color Variant 3",
     "price": 225,
-    "code": "CODE-1003",
+    "code": true,
     "sizes": [
       41,
       42,
       40
     ],
     "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F06%2Ftravis-scott-air-jordan-1-low-reverse-mocha-detailed-look-release-info-dm7866-162-000.jpg?w=960&cbr=1&q=90&fit=max",
-    "videoThumb": "https://example.com/videos/thumb3.webp",
+    "videoThumb": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F06%2Ftravis-scott-air-jordan-1-low-reverse-mocha-detailed-look-release-info-dm7866-162-000.jpg?w=960&cbr=1&q=90&fit=max",
     "related": [
-      "https://example.com/images/related3_1.webp",
-      "https://example.com/images/related3_2.webp"
+      "https://i.pinimg.com/736x/c8/ea/35/c8ea3584bc61d138e6c02832d35bc03a.jpg",
+      "https://i.pinimg.com/736x/a2/ed/43/a2ed4379f33e72536f93a04d2df49ad5.jpg"
     ],
     "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
     "note": "This is a limited edition of model 3."
@@ -68,17 +68,17 @@ const products = [
     "subtitle": "Nike Dunk Low SP St. John Red",
     "color": "Color Variant 4",
     "price": 119,
-    "code": "CODE-1004",
+    "code": true,
     "sizes": [
       42,
       39,
       41
     ],
     "image": "https://i.pinimg.com/736x/c8/ea/35/c8ea3584bc61d138e6c02832d35bc03a.jpg",
-    "videoThumb": "https://example.com/videos/thumb4.webp",
+    "videoThumb": "https://i.pinimg.com/736x/c8/ea/35/c8ea3584bc61d138e6c02832d35bc03a.jpg",
     "related": [
-      "https://example.com/images/related4_1.webp",
-      "https://example.com/images/related4_2.webp"
+      "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F06%2Ftravis-scott-air-jordan-1-low-reverse-mocha-detailed-look-release-info-dm7866-162-000.jpg?w=960&cbr=1&q=90&fit=max",
+      "https://i.pinimg.com/736x/45/cd/59/45cd59bc7f0df5c8d896c3eefd18f72f.jpg"
     ],
     "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
     "note": "This is a limited edition of model 4."
@@ -89,17 +89,17 @@ const products = [
     "subtitle": "Nike Air Force 1 White Low",
     "color": "Color Variant 5",
     "price": 73,
-    "code": "CODE-1005",
+    "code": true,
     "sizes": [
       38,
       40,
       42
     ],
     "image": "https://i.pinimg.com/736x/06/f2/b6/06f2b608c576b96ffd5cb4767649e31a.jpg",
-    "videoThumb": "https://example.com/videos/thumb5.webp",
+    "videoThumb": "https://i.pinimg.com/736x/06/f2/b6/06f2b608c576b96ffd5cb4767649e31a.jpg",
     "related": [
-      "https://example.com/images/related5_1.webp",
-      "https://example.com/images/related5_2.webp"
+      "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1679284392816-191b1c849f76?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
     "note": "This is a limited edition of model 5."
@@ -110,17 +110,17 @@ const products = [
     "subtitle": "Nike Jordan Low SE Craft Black/Grey",
     "color": "Color Variant 6",
     "price": 123,
-    "code": "CODE-1006",
+    "code": true,
     "sizes": [
       39,
       41,
       40
     ],
     "image": "https://images.unsplash.com/photo-1679284392816-191b1c849f76?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "videoThumb": "https://example.com/videos/thumb6.webp",
+    "videoThumb": "https://images.unsplash.com/photo-1679284392816-191b1c849f76?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "related": [
-      "https://example.com/images/related6_1.webp",
-      "https://example.com/images/related6_2.webp"
+      "https://i.pinimg.com/736x/a2/ed/43/a2ed4379f33e72536f93a04d2df49ad5.jpg",
+      "https://i.pinimg.com/736x/7a/55/83/7a5583517446c5aabc68f92973e37d05.jpg"
     ],
     "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
     "note": "This is a limited edition of model 6."
@@ -131,17 +131,17 @@ const products = [
     "subtitle": "Addidas White Samba OG",
     "color": "Color Variant 7",
     "price": 128,
-    "code": "CODE-1007",
+    "code": true,
     "sizes": [
       40,
       42,
       41
     ],
     "image": "https://i.pinimg.com/736x/7a/55/83/7a5583517446c5aabc68f92973e37d05.jpg",
-    "videoThumb": "https://example.com/videos/thumb7.webp",
+    "videoThumb": "https://i.pinimg.com/736x/7a/55/83/7a5583517446c5aabc68f92973e37d05.jpg",
     "related": [
-      "https://example.com/images/related7_1.webp",
-      "https://example.com/images/related7_2.webp"
+      "https://i.pinimg.com/736x/06/f2/b6/06f2b608c576b96ffd5cb4767649e31a.jpg",
+      "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
     "note": "This is a limited edition of model 7."
@@ -152,17 +152,17 @@ const products = [
     "subtitle": "Nike Dunk Low Retro Panda Black",
     "color": "Color Variant 8",
     "price": 66,
-    "code": "CODE-1008",
+    "code": true,
     "sizes": [
       41,
       39,
       42
     ],
     "image": "https://i.pinimg.com/736x/45/cd/59/45cd59bc7f0df5c8d896c3eefd18f72f.jpg",
-    "videoThumb": "https://example.com/videos/thumb8.webp",
+    "videoThumb": "https://i.pinimg.com/736x/45/cd/59/45cd59bc7f0df5c8d896c3eefd18f72f.jpg",
     "related": [
-      "https://example.com/images/related8_1.webp",
-      "https://example.com/images/related8_2.webp"
+      "https://i.pinimg.com/736x/a2/ed/43/a2ed4379f33e72536f93a04d2df49ad5.jpg",
+      "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F06%2Ftravis-scott-air-jordan-1-low-reverse-mocha-detailed-look-release-info-dm7866-162-000.jpg?w=960&cbr=1&q=90&fit=max"
     ],
     "careInstruction": "Wipe with a clean cloth, air dry. Avoid direct sunlight.",
     "note": "This is a limited edition of model 8."
