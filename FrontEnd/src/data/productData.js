@@ -66,9 +66,9 @@ const products = [
     "id": "4",
     "title": "Nike St. John Red",
     "subtitle": "Nike Dunk Low SP St. John Red",
-    "color": "Color Variant 4",
+    "color": "Red",
     "price": 119,
-    "code": true,
+    "code": false,
     "sizes": [
       42,
       39,
@@ -89,7 +89,7 @@ const products = [
     "subtitle": "Nike Air Force 1 White Low",
     "color": "Color Variant 5",
     "price": 73,
-    "code": true,
+    "code": false,
     "sizes": [
       38,
       40,
@@ -152,7 +152,7 @@ const products = [
     "subtitle": "Nike Dunk Low Retro Panda Black",
     "color": "Color Variant 8",
     "price": 66,
-    "code": true,
+    "code": false,
     "sizes": [
       41,
       39,

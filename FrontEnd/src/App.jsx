@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Product from './Pages/Product';
 import Chatbot from './components/Chatbot';
 import ProductDetail from './Pages/Product_Details';
+import Product_Cart from './Pages/Product_Cart';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
 
             {/* Product Details Page */}
             <Route path="/:id" element={<ProductDetail />} />
+            <Route path="/cart" element={<Product_Cart />} />
           </Routes>
         </div>
       </div>

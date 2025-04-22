@@ -1,9 +1,7 @@
-@import "tailwindcss";
-@plugin "daisyui";
 
 *{
   box-sizing: border-box;
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 }
 
 .Navbar-container{
@@ -18,6 +16,10 @@
 h1{
   font-family: "Amarante", serif;
   font-weight: 900;
+}
+
+hr{
+  color: #415a77;
 }
 
 .header-policy{
